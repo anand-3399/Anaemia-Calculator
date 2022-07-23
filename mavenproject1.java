@@ -83,43 +83,63 @@ public class mavenproject1 extends javax.swing.JFrame {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(243, 243, 243)
-                        .addComponent(mcv, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(182, 182, 182)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(submit, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(reset, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(166, 166, 166)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(value, javax.swing.GroupLayout.PREFERRED_SIZE, 333, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 343, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(214, Short.MAX_VALUE))
-        );
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(layout.createSequentialGroup()
+                                                .addGap(243, 243, 243)
+                                                .addComponent(mcv, javax.swing.GroupLayout.PREFERRED_SIZE, 190,
+                                                        javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGroup(layout.createSequentialGroup()
+                                                .addGap(182, 182, 182)
+                                                .addGroup(layout
+                                                        .createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING,
+                                                                false)
+                                                        .addGroup(layout.createSequentialGroup()
+                                                                .addComponent(submit,
+                                                                        javax.swing.GroupLayout.PREFERRED_SIZE, 105,
+                                                                        javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addPreferredGap(
+                                                                        javax.swing.LayoutStyle.ComponentPlacement.RELATED,
+                                                                        javax.swing.GroupLayout.DEFAULT_SIZE,
+                                                                        Short.MAX_VALUE)
+                                                                .addComponent(reset,
+                                                                        javax.swing.GroupLayout.PREFERRED_SIZE, 108,
+                                                                        javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                        .addComponent(jScrollPane2,
+                                                                javax.swing.GroupLayout.Alignment.LEADING,
+                                                                javax.swing.GroupLayout.PREFERRED_SIZE, 309,
+                                                                javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addGroup(layout.createSequentialGroup()
+                                                .addGap(166, 166, 166)
+                                                .addGroup(layout
+                                                        .createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addComponent(value, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                333, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                                343, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addContainerGap(214, Short.MAX_VALUE)));
         layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(mcv, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(value, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(42, 42, 42)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(submit, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(reset, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(22, 22, 22))
-        );
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 66,
+                                        javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(mcv, javax.swing.GroupLayout.PREFERRED_SIZE, 36,
+                                        javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(value, javax.swing.GroupLayout.PREFERRED_SIZE, 36,
+                                        javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(42, 42, 42)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(submit, javax.swing.GroupLayout.PREFERRED_SIZE, 40,
+                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(reset, javax.swing.GroupLayout.PREFERRED_SIZE, 40,
+                                                javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
+                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 207,
+                                        javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(22, 22, 22)));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -131,97 +151,82 @@ public class mavenproject1 extends javax.swing.JFrame {
     private void submitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitActionPerformed
         // TODO add your handling code here:
         String mcv1 = (String) mcv.getSelectedItem();
-//        mcv.setSelectedItem(null);
+        //        mcv.setSelectedItem(null);
         String value1 = (String) value.getSelectedItem();
-//        value.setSelectedItem(null);
+        //        value.setSelectedItem(null);
         TextArea.setText(null);
-        if(mcv1.equals("LOW MCV") && value1.equals("Fertin Level is Normal or High"))
-        {
+        if (mcv1.equals("LOW MCV") && value1.equals("Fertin Level is Normal or High")) {
             TextArea.append("Diagnosis:\n");
-            TextArea.append("If Your TIBC is Normal or High then\n"+"-->Consider lead level based on history.\n" +
-"Perform hemoglobin electrophoresis\n"+ 
-" (identify variant and abnormal\n"+ 
-" hemoglobins such as Sickle cell\n"+ 
-" trait or B-thalassemia).\n\n" +
-"If normal, perform bone marrow\n"+ 
-" evaluation (e.g. sideroblastic\n"+ 
-" anemia or rule out other causes).\n\n");
-            TextArea.append("If Your TIBC is Low then\n"+
-"-->Diagnosis: Anaemia of chronic \ndisease (ACD)");
-        }
-        else if(mcv1.equals("LOW MCV") && value1.equals("Fertin Level is Low"))
-        {
-//                        TextArea.append("Diagnosis:\n");
+            TextArea.append("If Your TIBC is Normal or High then\n" + "-->Consider lead level based on history.\n" +
+                    "Perform hemoglobin electrophoresis\n" +
+                    " (identify variant and abnormal\n" +
+                    " hemoglobins such as Sickle cell\n" +
+                    " trait or B-thalassemia).\n\n" +
+                    "If normal, perform bone marrow\n" +
+                    " evaluation (e.g. sideroblastic\n" +
+                    " anemia or rule out other causes).\n\n");
+            TextArea.append("If Your TIBC is Low then\n" +
+                    "-->Diagnosis: Anaemia of chronic \ndisease (ACD)");
+        } else if (mcv1.equals("LOW MCV") && value1.equals("Fertin Level is Low")) {
+            //                        TextArea.append("Diagnosis:\n");
 
             TextArea.append("Diagnosis: Iron deficiency anemia");
-        }
-        else if(mcv1.equals("NORMAL MCV") && value1.equals("Increased Reticulocyte count"))
-        {
-                        TextArea.append("Diagnosis:\n");
+        } else if (mcv1.equals("NORMAL MCV") && value1.equals("Increased Reticulocyte count")) {
+            TextArea.append("Diagnosis:\n");
 
             TextArea.append("Acute blood loss\n" +
-"Hemolysis\n" +
-"Splenic sequestration.");
-        }
-        else if(mcv1.equals("NORMAL MCV") && value1.equals("Low Reticulocyte count"))
-        {
-                        TextArea.append("Diagnosis:\n");
+                    "Hemolysis\n" +
+                    "Splenic sequestration.");
+        } else if (mcv1.equals("NORMAL MCV") && value1.equals("Low Reticulocyte count")) {
+            TextArea.append("Diagnosis:\n");
 
-            TextArea.append("If Your WBC-Patelets are Low then \n"+"-->Bone marrow failure\n" +
-"Aplastic anemia\n" +
-"Leukemia.\n\n");
-            TextArea.append("If Your WBC-Patelets are High \nor Medium then \n"+"-->Chronic infection\n" +
-"Malignancy\n" +
-"Chronic renal disease.");
-        }
-        else if(mcv1.equals("HIGH MCV") && value1.equals("Normal B12 level, reduced folate level"))
-        {
-                        TextArea.append("Diagnosis:\n");
+            TextArea.append("If Your WBC-Patelets are Low then \n" + "-->Bone marrow failure\n" +
+                    "Aplastic anemia\n" +
+                    "Leukemia.\n\n");
+            TextArea.append("If Your WBC-Patelets are High \nor Medium then \n" + "-->Chronic infection\n" +
+                    "Malignancy\n" +
+                    "Chronic renal disease.");
+        } else if (mcv1.equals("HIGH MCV") && value1.equals("Normal B12 level, reduced folate level")) {
+            TextArea.append("Diagnosis:\n");
 
             TextArea.append("Anemia due to folic acid deficiency.\n");
-        }
-        else if(mcv1.equals("HIGH MCV") && value1.equals("Normal folate level, reduced B12 level"))
-        {
-                        TextArea.append("Diagnosis:\n");
+        } else if (mcv1.equals("HIGH MCV") && value1.equals("Normal folate level, reduced B12 level")) {
+            TextArea.append("Diagnosis:\n");
 
-            TextArea.append("Perform Schilling test. If the intrinsic\n factor is reduced: Pernicious anemia,\n however, if the intrinsic factor is normal,\n investigate gastrointestinal pathology.");
-        }
-        else if(mcv1.equals("HIGH MCV") && value1.equals("Normal folate level and B12 level"))
-        {
-                        TextArea.append("Diagnosis:\n");
+            TextArea.append(
+                    "Perform Schilling test. If the intrinsic\n factor is reduced: Pernicious anemia,\n however, if the intrinsic factor is normal,\n investigate gastrointestinal pathology.");
+        } else if (mcv1.equals("HIGH MCV") && value1.equals("Normal folate level and B12 level")) {
+            TextArea.append("Diagnosis:\n");
 
             TextArea.append("Consider:\n" +
-"Hepatic disease\n" +
-"Drug-induced anemia\n" +
-"Hypothroidism\n" +
-"Reticulocytosis.");
+                    "Hepatic disease\n" +
+                    "Drug-induced anemia\n" +
+                    "Hypothroidism\n" +
+                    "Reticulocytosis.");
 
         }
-//        TextArea.append("HII " + mcv1 + " Hello " + value1 + "\n\n");
+        //        TextArea.append("HII " + mcv1 + " Hello " + value1 + "\n\n");
     }//GEN-LAST:event_submitActionPerformed
 
     private void resetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetActionPerformed
         // TODO add your handling code here:
         String value1 = (String) value.getSelectedItem();
-//        value.setSelectedItem(null);
+        //        value.setSelectedItem(null);
         TextArea.setText(null);
-//        value.setSelectedItem(null);
+        //        value.setSelectedItem(null);
     }//GEN-LAST:event_resetActionPerformed
 
     private void mcvActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mcvActionPerformed
         // TODO add your handling code here:
-        try{
-            if(mcv.getSelectedItem().equals("LOW MCV"))
-            {
-    //            value.setSelectedItem(null);
+        try {
+            if (mcv.getSelectedItem().equals("LOW MCV")) {
+                //            value.setSelectedItem(null);
                 value.removeAllItems();
                 value.addItem("Make a selection");
                 value.addItem("Fertin Level is Normal or High");
                 value.addItem("Fertin Level is Low");
 
-            }
-            else if(mcv.getSelectedItem().equals("NORMAL MCV"))
-            {
+            } else if (mcv.getSelectedItem().equals("NORMAL MCV")) {
                 value.removeAllItems();
                 value.addItem("Make a selection");
                 value.addItem("Increased Reticulocyte count");
@@ -229,8 +234,7 @@ public class mavenproject1 extends javax.swing.JFrame {
 
             }
 
-            else if(mcv.getSelectedItem().equals("HIGH MCV"))
-            {
+            else if (mcv.getSelectedItem().equals("HIGH MCV")) {
                 value.removeAllItems();
                 value.addItem("Make a selection");
                 value.addItem("Normal B12 level, reduced folate level");
@@ -238,10 +242,8 @@ public class mavenproject1 extends javax.swing.JFrame {
                 value.addItem("Normal folate level and B12 level");
 
             }
-        }
-        catch(Exception e)
-        {
-                    System.out.println(e);
+        } catch (Exception e) {
+            System.out.println(e);
         }
     }//GEN-LAST:event_mcvActionPerformed
 
@@ -262,13 +264,17 @@ public class mavenproject1 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(mavenproject1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(mavenproject1.class.getName()).log(java.util.logging.Level.SEVERE, null,
+                    ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(mavenproject1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(mavenproject1.class.getName()).log(java.util.logging.Level.SEVERE, null,
+                    ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(mavenproject1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(mavenproject1.class.getName()).log(java.util.logging.Level.SEVERE, null,
+                    ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(mavenproject1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(mavenproject1.class.getName()).log(java.util.logging.Level.SEVERE, null,
+                    ex);
         }
         //</editor-fold>
 
